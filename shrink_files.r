@@ -1,7 +1,9 @@
+# Code to read the first number of lines from the data files
+# 
 
-train.10000 <- read.csv("train.csv", header=TRUE,nrows=10000)
-train.labels.10000 <- read.csv("trainlabels.csv", header=TRUE,nrows=10000)
-test.2000 <- read.csv("test.csv", header=TRUE,nrows=2000)
+train.10000 <- read.csv("train.csv", header=TRUE, nrows=10000)
+train.labels.10000 <- read.csv("trainlabels.csv", header=TRUE, nrows=10000)
+test.2000 <- read.csv("test.csv", header=TRUE, nrows=2000)
 
 
 write.csv (train.10000, "train_10000.csv", row.names = FALSE)
